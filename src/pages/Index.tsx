@@ -235,20 +235,13 @@ const Index = () => {
           <div className="space-y-12">
             {/* Hero Section */}
             <div className="text-center space-y-6 py-12">
-              <div className="mx-auto w-24 h-24 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center mb-6">
+              <div className="mx-auto w-24 h-24 from-primary to-accent flex items-center justify-center mb-6 bg-gray-200 rounded-xl">
                 <Icon name="Shield" size={40} className="text-white" />
               </div>
-              <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-fade-in">
-                CyberSec Blog
-              </h1>
-              <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in" style={{animationDelay: '0.2s'}}>
-                Экспертные материалы о кибербезопасности, приватности и VPN-технологиях для технической аудитории
-              </p>
+              <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-fade-in">VPN — ВАША ЗАЩИТА В СЕТИ</h1>
+              <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in" style={{animationDelay: '0.2s'}}>Обеспечьте себе полную конфиденциальность и безопасность в интернете с помощью VPN .</p>
               <div className="flex justify-center gap-4 animate-fade-in" style={{animationDelay: '0.4s'}}>
-                <Button size="lg" className="bg-gradient-to-r from-primary to-accent hover:opacity-90">
-                  <Icon name="BookOpen" size={20} className="mr-2" />
-                  Читать статьи
-                </Button>
+                <Button size="lg" className="bg-gradient-to-r from-primary to-accent hover:opacity-90">Подключиться сейчас</Button>
                 <Button size="lg" variant="outline">
                   <Icon name="Rss" size={20} className="mr-2" />
                   RSS подписка
@@ -354,7 +347,7 @@ const Index = () => {
               <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
                 <Icon name="Shield" size={20} className="text-white" />
               </div>
-              <span className="text-xl font-bold">CyberSec</span>
+              <span className="font-bold px-0 text-3xl">VPN</span>
             </div>
             
             <div className="hidden md:flex gap-8">
@@ -397,7 +390,7 @@ const Index = () => {
             <div className="w-6 h-6 bg-gradient-to-br from-primary to-accent rounded flex items-center justify-center">
               <Icon name="Shield" size={14} className="text-white" />
             </div>
-            <span className="font-semibold">CyberSec Blog</span>
+            <span className="font-semibold">VPN</span>
           </div>
           <p className="text-sm text-muted-foreground">
             © 2024 CyberSec Blog. Экспертные материалы о кибербезопасности и приватности.
