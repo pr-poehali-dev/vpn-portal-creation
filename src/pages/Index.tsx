@@ -316,6 +316,32 @@ const Index = () => {
               </div>
             </div>
             </div>
+
+            {/* Additional Information Section */}
+            <div className="space-y-8 py-12">
+              <h2 className="text-3xl font-bold text-center">Дополнительная информация</h2>
+              <div className="grid md:grid-cols-2 gap-8">
+                <Card className="p-6">
+                  <h3 className="text-xl font-semibold mb-4">Экспертный контент</h3>
+                  <div className="space-y-3 text-muted-foreground">
+                    <p>• Статьи от практикующих специалистов по информационной безопасности</p>
+                    <p>• Подробные гайды по настройке и использованию VPN</p>
+                    <p>• Анализ последних угроз и методов защиты</p>
+                    <p>• Обзоры инструментов для обеспечения приватности</p>
+                  </div>
+                </Card>
+                
+                <Card className="p-6">
+                  <h3 className="text-xl font-semibold mb-4">Сообщество</h3>
+                  <div className="space-y-3 text-muted-foreground">
+                    <p>• Активное обсуждение статей в комментариях</p>
+                    <p>• Обмен опытом между специалистами</p>
+                    <p>• Ответы на вопросы от экспертов</p>
+                    <p>• Регулярные обновления и новые материалы</p>
+                  </div>
+                </Card>
+              </div>
+            </div>
           </div>
         );
     }
