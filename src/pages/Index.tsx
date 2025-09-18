@@ -290,7 +290,9 @@ const Index = () => {
             </div>
 
             {/* Features */}
-            <div className="grid md:grid-cols-3 gap-6 py-12">
+            <div className="space-y-8">
+              <h2 className="text-3xl font-bold text-center">Наши направления</h2>
+              <div className="grid md:grid-cols-3 gap-6 py-12 mx-0 bg-transparent">
               <div className="text-center space-y-4 p-6 border rounded-lg hover-scale">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
                   <Icon name="Shield" size={32} className="text-primary" />
@@ -312,6 +314,7 @@ const Index = () => {
                 <h3 className="text-xl font-semibold">VPN технологии</h3>
                 <p className="text-muted-foreground">Протоколы, настройка и выбор VPN-решений для разных задач</p>
               </div>
+            </div>
             </div>
           </div>
         );
