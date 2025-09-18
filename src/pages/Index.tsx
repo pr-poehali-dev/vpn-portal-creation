@@ -332,6 +332,72 @@ const Index = () => {
                 </Card>
               </div>
             </div>
+
+            {/* Reviews Section */}
+            <div className="space-y-8 py-12">
+              <h2 className="text-3xl font-bold text-center">Отзывы клиентов</h2>
+              <div className="grid md:grid-cols-3 gap-6">
+                <Card className="p-6 hover-scale">
+                  <div className="flex items-center gap-2 mb-4">
+                    <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center">
+                      <Icon name="User" size={20} className="text-white" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold">Алексей М.</h4>
+                      <div className="flex text-yellow-500">
+                        {"★★★★★".split("").map((star, i) => (
+                          <span key={i}>{star}</span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground italic">
+                    "Использую этот VPN уже полгода - отличная скорость и стабильность соединения. 
+                    Безопасность на высшем уровне, никаких проблем с доступом к заблокированным сайтам."
+                  </p>
+                </Card>
+
+                <Card className="p-6 hover-scale">
+                  <div className="flex items-center gap-2 mb-4">
+                    <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center">
+                      <Icon name="User" size={20} className="text-white" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold">Мария К.</h4>
+                      <div className="flex text-yellow-500">
+                        {"★★★★★".split("").map((star, i) => (
+                          <span key={i}>{star}</span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground italic">
+                    "Идеальный VPN для работы с конфиденциальными данными. Простая настройка, 
+                    надежное шифрование и круглосуточная техподдержка. Рекомендую!"
+                  </p>
+                </Card>
+
+                <Card className="p-6 hover-scale">
+                  <div className="flex items-center gap-2 mb-4">
+                    <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center">
+                      <Icon name="User" size={20} className="text-white" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold">Дмитрий В.</h4>
+                      <div className="flex text-yellow-500">
+                        {"★★★★★".split("").map((star, i) => (
+                          <span key={i}>{star}</span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground italic">
+                    "Лучший VPN-сервис из всех, что пробовал. Высокая скорость, много серверов, 
+                    отличная приватность. Цена полностью оправдывает качество."
+                  </p>
+                </Card>
+              </div>
+            </div>
           </div>
         );
     }
