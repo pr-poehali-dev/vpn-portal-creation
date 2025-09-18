@@ -322,19 +322,19 @@ const Index = () => {
               <h2 className="text-3xl font-bold text-center">Дополнительная информация</h2>
               <div className="grid md:grid-cols-2 gap-8">
                 <Card className="p-6">
-                  <h3 className="text-xl font-semibold mb-4">Экспертный контент</h3>
+                  <h3 className="text-xl font-semibold mb-4">ОСНОВНЫЕ ВОЗМОЖНОСТИ</h3>
                   <div className="space-y-3 text-muted-foreground">
                     <p>VPN это инновационный сервис, который гарантирует защиту ваших данных и полную анонимность в сети. Мы предлагаем надежные технологии, которые скрывают ваш IP-адрес и шифруют трафик, обеспечивая безопасность на высшем уровне.</p>
                   </div>
                 </Card>
                 
                 <Card className="p-6">
-                  <h3 className="text-xl font-semibold mb-4">Сообщество</h3>
+                  <h3 className="text-xl font-semibold mb-4">МЫ ПРЕДЛАГАЕМ</h3>
                   <div className="space-y-3 text-muted-foreground">
-                    <p>• Активное обсуждение статей в комментариях</p>
-                    <p>• Обмен опытом между специалистами</p>
-                    <p>• Ответы на вопросы от экспертов</p>
-                    <p>• Регулярные обновления и новые материалы</p>
+                    <p>• МАКСИМАЛЬНАЯ АНОНИМНОСТЬ</p>
+                    <p>• ДОВЕРЬТЕСЬ ПРОФЕССИОНАЛАМ</p>
+                    <p>• МГНОВЕННЫЙ ДОСТУП</p>
+                    <p>• РЕГУЛЯРНЫЕ ОБНОВЛЕНИЯ</p>
                   </div>
                 </Card>
               </div>
